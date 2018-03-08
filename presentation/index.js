@@ -48,12 +48,12 @@ const code = {
 };
 
 const images = {
-  techknowDay: require("../assets/images/techknowday.png"),
+  techknowDay: require("../assets/images/techknowday.jpg"),
   trainers: require("../assets/images/trainers/trainers.jpg"),
   youareawesome: require("../assets/images/youareawesome.gif"),
   rest: require("../assets/images/graphql/rest.jpg"),
   graphql: require("../assets/images/graphql/graphql.jpg"),
-  graphiql: require("../assets/images/graphql/graphiql.jpg"),
+  graphiql: require("../assets/images/graphql/graphiql.jpg")
 };
 
 export default class Presentation extends React.Component {
@@ -86,7 +86,6 @@ export default class Presentation extends React.Component {
             What we will do today
           </Heading>
           <List>
-
             <ListItem textColor="text" bold>
               Short intro to GraphQL
             </ListItem>
@@ -102,7 +101,6 @@ export default class Presentation extends React.Component {
             GraphQL
           </Heading>
           <List>
-
             <ListItem textColor="text" bold>
               Query language for APIs
             </ListItem>
@@ -145,7 +143,7 @@ export default class Presentation extends React.Component {
           code={code.appSketch}
           ranges={[
             { loc: [0, 15], title: "App sketch" },
-            { loc: [0, 15], title: "App sketch" },
+            { loc: [0, 15], title: "App sketch" }
           ]}
         />
 
@@ -167,7 +165,7 @@ export default class Presentation extends React.Component {
             { loc: [0, 4], title: "import from react-apollo" },
             { loc: [5, 8], title: "Create network interface" },
             { loc: [9, 10], title: "Create Apollo client" },
-            { loc: [11, 16], title: "ApolloProvider" },
+            { loc: [11, 16], title: "ApolloProvider" }
           ]}
         />
 
@@ -178,7 +176,7 @@ export default class Presentation extends React.Component {
           ranges={[
             { loc: [0, 7], title: "Create a query" },
             { loc: [8, 12], title: "Access data via props" },
-            { loc: [13, 33], title: "" },
+            { loc: [13, 33], title: "" }
           ]}
         />
 
